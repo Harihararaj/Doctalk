@@ -1,0 +1,7 @@
+langchain
+openai
+tqdm
+tenacity
+python-dotenv
+langchain-openai
+langchain-community
