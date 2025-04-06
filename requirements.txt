@@ -1,3 +1,7 @@
 fastapi[standard]
 motor==2.5.1
 pymongo==3.12.3
+requests
+python-dotenv
+langchain-openai
+langchain

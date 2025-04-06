@@ -29,3 +29,15 @@ class DoctorModel(BaseModel):
     profile_image_url: HttpUrl
     medical_philosophy: str
     weekly_schedule: Dict[str, Schedule]
+
+class UserLogin(BaseModel)
+    username: str,
+    password: str
+
+class UserModel(BaseModel):
+    patient_id: str
+    password: str
+    age: int
+    gender: str
+    location: str
+    profile_image_url: HttpUrl
